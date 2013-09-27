@@ -21,6 +21,9 @@ require_once('logic.php');
     	<input type='text' name='contestant5'><br>
     	<input type='submit' value='Pick a winner!'><br>
 	</form>
+	<br/>
+	
+	<?php echo "The winning number is ". $winning_number . "!<br/><br/>"; ?>
 	
 	<table>
 		<?php foreach($contestants as $name => $winner_or_loser): ?>

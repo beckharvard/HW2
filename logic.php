@@ -5,13 +5,13 @@ error_reporting(1);
 
 
 
-$winning_number = rand(0,4);
+$winning_number = rand(0,2);
 $winner=false;
 $two_winners=false;
 
 foreach($_POST as $field_name => $contestant_name) {
 	
-		$contestants_random_number = rand(0,4);	
+		$contestants_random_number = rand(0,2);	
 		
 		
 		// Winner!
