@@ -28,7 +28,7 @@ require_once('logic.php');
 				<td><?=$name?></td>
 				<td><?=$winner_or_loser?></td>
 			</tr>	
-		<?php endforeach; ?>
+		<?php endforeach;?>
 	</table>	
 
 </body>
